@@ -33,7 +33,7 @@ cricket_df = cricket_df.duplicated(subset = ['title'], keep = 'first')
 
 # apply the boolean mask to filter the dataframe
 cricket_df = cricket_df[~cricket_df]
-(optional) reset the index if needed
+# (optional) reset the index if needed
 cricket_df = cricket_df.reset_index(drop = True) 
 
 
